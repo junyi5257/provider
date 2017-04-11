@@ -16,7 +16,7 @@ public class Provider {
     public static void main(String[] args) throws Exception {
         //
         System.out.println("Begin to load-provider======");
-        // 加载Spring配置文件
+        // 加载Spring配置文件-测试
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"application-context.xml"});
         context.start();
         //

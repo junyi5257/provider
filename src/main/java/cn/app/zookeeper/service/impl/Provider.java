@@ -21,7 +21,7 @@ public class Provider {
         context.start();
         //
         System.out.println("End to load-provider");
-        // 为保证服务一直开着，利用输入流的阻塞来模拟
+        // 为保证服务一直开着，利用输入流的的阻塞来模拟
         System.in.read();
     }
 }
